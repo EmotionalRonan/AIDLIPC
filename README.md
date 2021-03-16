@@ -64,7 +64,7 @@ AIDL有这些优势：
       ```java
       // IPayAidl.aidl
       package tk.iovr.aidlservice;
-import tk.iovr.aidlservice.Person;//⾮基本类型的数据需要导⼊全路径， 如 Person 类
+      import tk.iovr.aidlservice.Person;//⾮基本类型的数据需要导⼊全路径， 如 Person 类
       interface IPayAidl {
           void pay(); //
       		//除了基本数据类型，其他类型的参数都需要标上⽅向类型：in(输⼊), out(输出), inout(输⼊输出)
